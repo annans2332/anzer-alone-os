@@ -26,8 +26,4 @@ These instructions will help you run AnzerOS safely in a virtual machine.
 ### Running in QEMU
 
 ```bash
-qemu-system-x86_64 -m 4096 \
--drive if=pflash,format=raw,readonly=on,file="OVMF_CODE.fd" \
--drive if=pflash,format=raw,file="OVMF_VARS.fd" \
--cdrom "anzeros_beta1.0.iso" \
--boot d
+qemu-system-x86_64 -m 4096 -drive if=pflash,format=raw,readonly=on,file="OVMF_CODE.fd" -drive if=pflash,format=raw,file="OVMF_VARS.fd" -cdrom "anzeros_beta1.0.iso" -boot d
