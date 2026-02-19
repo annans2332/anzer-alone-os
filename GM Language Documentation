@@ -1,0 +1,49 @@
+GM Language Documentation (AnzerOS)
+
+GM is a lightweight, declarative programming language for creating interactive apps directly in AnzerOS.
+
+Features
+Stability & Performance
+
+Only redraws the current line while typing.
+
+Full redraw happens only when necessary (scrolling, running apps).
+
+Eliminates vertical flicker during typing.
+
+Supported Commands
+Command	Description
+APP "NAME" "VERSION"	Defines a new application
+WINDOW "TITLE" width height	Creates a window
+LABEL x y "TEXT"	Adds static text
+BUTTON x y width height "TEXT"	Adds a clickable button
+RECT x y width height COLOR	Draws a colored rectangle
+TEXTBOX x y width height	Adds a text input field
+CHECKBOX x y "TEXT"	Adds a toggle checkbox
+IMAGE x y width height	Displays an image
+Colors
+
+Hex codes: FF9955, etc.
+
+Named colors: RED, GREEN, BLUE, YELLOW, ORANGE, PURPLE, WHITE, BLACK, GRAY
+
+Interactive Preview
+
+Click a CHECKBOX to toggle it.
+
+Click a TEXTBOX to type.
+
+Open saved Desktop files to run them in an App window without an IDE.
+
+Example GM App
+APP "MYAPP" "1.0"
+WINDOW "APP" 220 120
+LABEL 10 10 "HELLO"
+TEXTBOX 10 30 100 16
+CHECKBOX 10 55 "ENABLE"
+BUTTON 10 80 80 16 "OK"
+RECT 120 30 40 20 BLUE
+IMAGE 120 60 40 20
+
+
+This creates a window with a label, textbox, checkbox, button, rectangle, and image. Fully interactive inside AnzerOS.
