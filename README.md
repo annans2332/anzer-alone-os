@@ -20,7 +20,7 @@ These instructions will help you run AnzerOS safely in a virtual machine.
 
 ### Requirements
 
-- [QEMU](https://www.qemu.org/) (Windows/Linux/Mac) or [VirtualBox](https://www.virtualbox.org/)  
+- [QEMU](https://www.qemu.org/) (Windows/Linux/Mac)  
 - 4GB RAM recommended for QEMU
 
 ### Running in QEMU
