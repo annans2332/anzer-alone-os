@@ -45,5 +45,4 @@ BUTTON 10 80 80 16 "OK"
 RECT 120 30 40 20 BLUE
 IMAGE 120 60 40 20
 
-
 This creates a window with a label, textbox, checkbox, button, rectangle, and image. Fully interactive inside AnzerOS.
