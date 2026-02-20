@@ -18,6 +18,10 @@ AnzerOS is a lightweight, experimental operating system built from scratch with 
 
 These instructions will help you run AnzerOS safely in a virtual machine.
 
+### Warning
+
+This operating system is still in development phases some feature will not be available at this time
+
 ### Requirements
 
 - [QEMU](https://www.qemu.org/) (Windows/Linux/Mac)  
